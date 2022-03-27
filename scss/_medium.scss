@@ -1,0 +1,38 @@
+
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+nav {
+    button {
+            display: none;
+    }
+    ul {
+            border: none;
+            display: block;
+    }
+}
+nav ul li {
+    float: left;
+    border: none;
+}
+
+/*----------- NAVIGATION --------------*/
+    nav ul li:first-child a {border-left: 1px solid #777;}
+    nav ul li:last-child a {border-right: 1px solid #777;}
+    nav ul li a{padding: .5rem 1rem;}
+
+
+/*----------- MAIN --------------*/
+main {
+    .card {
+        flex-basis: 48%;
+    }
+}
+
+
+/*----------- FOOTER --------------*/
+    
